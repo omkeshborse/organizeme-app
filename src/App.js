@@ -24,11 +24,22 @@ function App() {
       time: "2:08:01 am 9/15/123",
     },
   ]);
+  const [task, setTask] = useState({});
   return (
     <div className="App">
       <Header />
-      <AddTask taskList={taskList} setTaskList={setTaskList} />
-      <ShowTask taskList={taskList} setTaskList={setTaskList} />
+      <AddTask
+        taskList={taskList}
+        setTaskList={setTaskList}
+        task={task}
+        setTask={setTask}
+      />
+      <ShowTask
+        taskList={taskList}
+        setTaskList={setTaskList}
+        task={task}
+        setTask={setTask}
+      />
     </div>
   );
 }
