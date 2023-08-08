@@ -14,7 +14,7 @@ This project is designed to empower you with efficient task management and organ
 
    ```bash 
    git clone git@github.com:omkeshborse/OrganizeMe-app.git
-   cd OrganizeMe-app
+   cd organizeme-app
    npm install
    ```
 
